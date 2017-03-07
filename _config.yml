@@ -115,7 +115,7 @@ title-separator: "-"
 timezone: "Europe/Istanbul"
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
@@ -208,26 +208,3 @@ gems:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
-# translations
-
-t:
-  tr:
-    next: "SONRAKİ"
-    previous: "ÖNCEKİ"
-    level: "Seviye"
-    date: "Tarih"
-
-t_date:
-  tr:
-    January: "Ocak"
-    February: "Şubat"
-    March: "Mart"
-    April: "Nisan"
-    May: "Mayıs"
-    June: "Haziran"
-    July: "Temmuz"
-    August: "Ağustos"
-    September: "Eylül"
-    October: "Ekim"
-    November: "Kasım"
-    December: "Aralık"
