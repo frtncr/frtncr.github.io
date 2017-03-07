@@ -78,11 +78,11 @@ footer-links-active:
   telephone: false
 
 # Select which share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  google: false
-  linkedin: true
+#share-links-active:
+#  twitter: true
+#  facebook: true
+#  google: false
+#  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -112,10 +112,10 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Europe/Istanbul"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:title/
 paginate: 5
 
 kramdown:
@@ -207,3 +207,27 @@ gems:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+# translations
+
+t:
+  tr:
+    next: "SONRAKİ"
+    previous: "ÖNCEKİ"
+    level: "Seviye"
+    date: "Tarih"
+
+t_date:
+  tr:
+    January: "Ocak"
+    February: "Şubat"
+    March: "Mart"
+    April: "Nisan"
+    May: "Mayıs"
+    June: "Haziran"
+    July: "Temmuz"
+    August: "Ağustos"
+    September: "Eylül"
+    October: "Ekim"
+    November: "Kasım"
+    December: "Aralık"
