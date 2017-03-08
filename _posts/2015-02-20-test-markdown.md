@@ -33,6 +33,10 @@ var foo = function(x) {
 foo(3)
 ~~~
 
+##### Gist Action Testi
+
+{% gist 5993954 %}
+
 ##### Sync Action Testi
 
 ```csharp
