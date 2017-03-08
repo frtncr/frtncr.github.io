@@ -33,6 +33,17 @@ var foo = function(x) {
 foo(3)
 ~~~
 
+~~~csharp
+[HttpGet]
+public IHttpActionResult SyncGet200MsDelay()
+{
+    // simulate a delay - could be a database query or another service request
+    Task.Delay(200).Wait();
+    
+    return Ok(GetSampleCustomers());
+}
+~~~
+
 ##### Gist Action Testi
 
 {% gist 5993954 %}
