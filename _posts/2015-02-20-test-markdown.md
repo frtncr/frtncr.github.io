@@ -55,3 +55,5 @@ var foo = function(x) {
 foo(3)
 ```
 
+{% gist frtncr/5993954 %}
+
