@@ -25,7 +25,7 @@ layout: base
         {% if post.lang == page.lang %}
           {% if prev %}
             <li class="previous">
-              <a href="{{ post.url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; {{ site.t[page.lang].previous }}</a>
+              <a href="{{ post.url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; {{ page.previous.title }}</a>
             </li>
           {% endif %}
           {% assign prev = false %}
@@ -39,7 +39,7 @@ layout: base
         {% if post.lang == page.lang %}
           {% if next %}
             <li class="next">
-              <a href="{{ post.url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">{{ site.t[page.lang].next }} &rarr;</a>
+              <a href="{{ post.url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">{{ page.next.title }} &rarr;</a>
             </li>
             {% break %}
           {% endif %}
