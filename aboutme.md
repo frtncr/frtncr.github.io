@@ -3,7 +3,10 @@ layout: page
 title: Hakkimda
 ---
 
-My name is Firat Tuncer. I have the following qualities:
+<center><h2>Firat Tuncer</h2></center>
+
+
+I have the following qualities:
 
 - I can C#
 
