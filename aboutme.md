@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About me
-subtitle: Who I am
+title: Hakkimda
 ---
 
 My name is Firat Tuncer. I have the following qualities:
